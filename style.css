@@ -1,0 +1,227 @@
+*{
+  box-sizing: border-box;
+}
+body,h1,h2,h3,h4,a,p {
+  margin: 0;
+}
+body {
+  height: 100%;
+}
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "width" 100;
+  }
+  .open-sans-regular{
+    font-weight: 400;
+  }
+  .open-sans-bold {
+    font-weight: 700;
+  }
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    /* background-color: rgb(189, 167, 136); */
+  margin: 0;
+}
+  .container{
+    max-width: 1290px;
+    background-color: #f4a1a1;
+    /* margin-inline: auto; */
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding-inline: 10px;
+  }
+  
+  
+  header{
+    background-color: aquamarine;
+    margin-block-end: 160px;
+  }
+/* header section{
+  padding-block-start: 68px;
+  padding-block-end: 147px;
+} */
+section .content h1{
+  margin-block-start: 157px ;
+  margin-block-end: 32px;
+  max-width: 536px;
+font-weight: 600;
+font-size: 40px;
+line-height: 60px;
+color: #00252E;
+}
+section .content p{
+  margin-block-end: 32px;
+  max-width: 520px;
+font-size: 18px;
+line-height: 27px;
+color: #00252E;
+}
+section .logo{
+  padding-block-start: 68px;
+margin-block-end: 71px;
+}
+section .content {
+margin-block-end: 147px;
+}
+  .button-try{
+    /* Try It Free */
+font-size: 14px;
+line-height: 19px;
+color: #00252E;
+text-decoration: none;
+background: #FFFFFF;
+box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+border-radius: 24px;
+/* padding-block-start: 13px;
+padding-block-end: 16px;
+padding-inline-start: 65px;
+padding-inline-end: 63px; */
+display: inline-block; 
+min-width: 200px;
+height: 48px;
+text-align: center;
+padding-block-start: 13px;
+padding-block-end: 16px;
+padding-inline-start: 65px;
+padding-inline-end: 63px; 
+} 
+
+.button-get{
+  /* Get Started For Free */
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #FF52C1;
+  box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+  border-radius: 40px;
+  /* padding-block-start: 17px;
+  padding-block-end: 20px;
+  padding-inline-start: 69px;
+  padding-inline-end: 70px; */
+  display: inline-block;
+  min-width: 280px;
+  height: 56px;
+  text-align: center;
+  padding-block-start: 17px;
+  padding-block-end: 20px;
+  margin-block-end: 147px;
+  }
+  
+main{
+  /* background-color: #fff; */
+  margin-block-end: 160px;
+}
+
+/* h2 in main */
+h2{
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: #00252E;
+  font-size: 28px;
+  margin-block-end: 16px;
+  
+}
+main p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #808E9A;
+}
+/* см. пример как мы в мейне оформляли секции-лекция 06 время 1:00 */
+.grow{
+  padding-block: 151px 150px ;
+  max-width: 488px;
+}
+.section-grow{
+  margin-block-end: 40px;
+  background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+border-radius: 16px;
+}
+
+.flowing{
+  max-width: 499px;
+  padding-block: 151px 150px ;
+}
+  .section-flowing{
+    margin-block-end: 40px;
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+border-radius: 16px;
+
+  }
+
+.users{
+  max-width: 477px;
+  padding-block: 151px 150px;
+} 
+.section-users{
+  margin-block-end: 344px;
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+border-radius: 16px;
+}
+
+footer{
+  background-color: aquamarine;
+  margin-block-end: 20px;
+  position: relative;
+  height: 418px;
+}
+/* найти время где делали. И про дисплей инлайн-блок */
+  .ready{
+background: #FFFFFF;
+box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.0710768);
+border-radius: 15px;
+display: inline-block;
+min-width: 800px;
+height: 280px;
+text-align: center;
+margin-inline: 320px 320px;
+  }
+  .ready h2{
+font-weight: 600;
+font-size: 32px;
+line-height: 60px;
+color: #00252E;
+margin-block-start: 56px;
+/* margin-block-end: 32px; */
+  }
+  footer a{
+    /* Get Started For Free button */
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+text-decoration: none; 
+background: #FF52C1;
+box-shadow: 0px 6px 13px rgba(0, 37, 46, 0.223053);
+border-radius: 40px;
+/* padding-block: 25px;
+padding-inline-start: 100px;
+padding-inline-end: 99px; */
+display: inline-block;
+min-width: 400px;
+height: 80px;
+text-align: center;
+padding-block: 25px;
+margin-block-start: 32px;
+ }
+ /* либо footer img спозиционировать по отнош к диву класс контейнер в футере  */
+ /* footer img{
+  margin-block: 144px 64px ;
+ } */
